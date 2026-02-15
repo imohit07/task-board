@@ -97,8 +97,3 @@ The workflow (`.github/workflows/deploy.yml`) builds with the correct base path 
 1. Run `npm run build`, then `npx vercel`.
 2. Or push to GitHub and import the repo at [vercel.com](https://vercel.com).
 
-## Submission
-
-- **Deployed URL:** (paste your Vercel/Netlify URL here after deploying)
-- **Source:** ZIP of this repo or link to repository
-- **README:** This file (setup steps and explanations)
