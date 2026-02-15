@@ -77,21 +77,7 @@ src/
 
 ## Deploy
 
-### GitHub Pages
-
-1. **Create a repo** on GitHub and push this project (e.g. repo name: `frontend-hitro` or `task-board`).
-
-2. **Turn on GitHub Pages**: In the repo go to **Settings** → **Pages** → under **Build and deployment** set **Source** to **GitHub Actions**.
-
-3. **Deploy**: Push to the `main` branch (or run the workflow from the **Actions** tab). The workflow builds the app and deploys to Pages.
-
-4. **Your live URL** will be:
-   - `https://<your-username>.github.io/<repo-name>/`  
-   Example: `https://johndoe.github.io/frontend-hitro/`
-
-The workflow (`.github/workflows/deploy.yml`) builds with the correct base path and copies `index.html` to `404.html` so routes like `/login` work when opened directly.
-
-### Vercel (alternative)
+### Vercel
 
 1. Run `npm run build`, then `npx vercel`.
 2. Or push to GitHub and import the repo at [vercel.com](https://vercel.com).
