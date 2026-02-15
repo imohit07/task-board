@@ -3,7 +3,7 @@
 A frontend Task Board application with static login, drag-and-drop columns (Todo, Doing, Done), and full persistence in `localStorage`. 
 
 ## Deployment link
-- https://task-board-two-alpha.vercel.app/login
+- https://task-board-two-alpha.vercel.app
 ## Features
 
 - **Static login**: Hardcoded credentials `intern@demo.com` / `intern123`; error messages for invalid login; "Remember me" and logout; route protection.
