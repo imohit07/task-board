@@ -1,7 +1,6 @@
 # Task Board
 
-A frontend Task Board application with static login, drag-and-drop columns (Todo, Doing, Done), and full persistence in `localStorage`. Built for the Frontend Internship assignment.
-
+A frontend Task Board application with static login, drag-and-drop columns (Todo, Doing, Done), and full persistence in `localStorage`. 
 ## Features
 
 - **Static login**: Hardcoded credentials `intern@demo.com` / `intern123`; error messages for invalid login; "Remember me" and logout; route protection.
@@ -76,8 +75,30 @@ src/
 - **Email:** `intern@demo.com`
 - **Password:** `intern123`
 
-### Vercel
+## Deploy
+
+### GitHub Pages
+
+1. **Create a repo** on GitHub and push this project (e.g. repo name: `frontend-hitro` or `task-board`).
+
+2. **Turn on GitHub Pages**: In the repo go to **Settings** → **Pages** → under **Build and deployment** set **Source** to **GitHub Actions**.
+
+3. **Deploy**: Push to the `main` branch (or run the workflow from the **Actions** tab). The workflow builds the app and deploys to Pages.
+
+4. **Your live URL** will be:
+   - `https://<your-username>.github.io/<repo-name>/`  
+   Example: `https://johndoe.github.io/frontend-hitro/`
+
+The workflow (`.github/workflows/deploy.yml`) builds with the correct base path and copies `index.html` to `404.html` so routes like `/login` work when opened directly.
+
+### Vercel (alternative)
 
 1. Run `npm run build`, then `npx vercel`.
 2. Or push to GitHub and import the repo at [vercel.com](https://vercel.com).
+
+## Submission
+
+- **Deployed URL:** (paste your Vercel/Netlify URL here after deploying)
+- **Source:** ZIP of this repo or link to repository
+- **README:** This file (setup steps and explanations)
 
